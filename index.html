@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reembolso 24hrs Amadeus</title>
+
+    <style>
+        body{
+            background-color: #0e80dd;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+        }
+        h1{
+            color: #F6B024;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #logo{
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+        }
+        button{
+            background-color: #F6B024;
+        }
+        #conteudo01{
+            display: none;
+            background-color: #0d8cf4;
+            box-shadow: 2px 2px 2px black;
+            width: 500px;
+        }
+        #conteudo02{
+            display: none;
+            background-color: #0d8cf4;
+            box-shadow: 2px 2px 2px black;
+            width: 500px;
+        }
+        #conteudo03{
+            display: none;
+            background-color: #0d8cf4;
+            box-shadow: 2px 2px 2px black;
+            width: 500px;
+
+        }
+        #conteudo04{
+            display: none;
+            background-color: #0d8cf4;
+            box-shadow: 2px 2px 2px black;
+            width: 500px;
+
+        }
+        main{
+            background-color: #1992f5;
+            margin: auto;
+            width: 600px;
+            border-radius: 5%;
+            box-shadow: 2px 2px 2px black;
+            padding: 3%;
+        }
+        #botao01{
+            position: relative;
+            left: -9%;
+            top: -2%;
+        }
+        #botao02{
+            position: relative;
+            left: -9%;
+            top: -2%;
+        }
+        #botao03{
+            position: relative;
+            left: -9%;
+            top: -2%;
+        }
+        #botao04{
+            position: relative;
+            left: -9%;
+            top: -2%;
+        }
+        div{
+            text-align: center;
+            background-color: #F6B024;
+            border-radius: 15%;
+            width: 200px;
+            margin: auto;
+        }
+        
+    </style>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header id="logo">
+        <img src="img confiança/grupo branco.png" alt="">
+    </header>
+    <h1>Reembolso 24hrs Amadeus</h1>
+
+    <main>
+        <ul>
+                 
+            <button id="botao01" onclick="toggle('conteudo01')">1</button>
+
+            <li>TWD/TKT044-3204905268 (Abrir bilhete)
+                <dl id="conteudo01">
+                    <dt><img src="imagens amadeus/bilhete amadeus.PNG" alt=""></dt>
+                    <dd>Mandatório para abrir o bilhete no amadeus e pegar as informações para inserir no reembolso.</dd>
+                </dl>
+            </li>
+
+            <button id="botao02" onclick="toggle('conteudo02')">2</button>
+
+            <li>TRF044-3204905268 (Iniciar reembolso)
+                <dl id="conteudo02">
+                    <dt><img src="imagens amadeus/trf.PNG" alt=""></dt>
+                    <dd>Mandatório para iniciar o reembolso 24hrs. <br>
+                    Conferir valores, forma de pagamento e incentivo. 
+                    <br>  
+                </dd>
+                </dl>
+            </li>
+
+            <button id="botao03" onclick="toggle('conteudo03')">3</button>
+
+            <li>TRFU/RM24 HORAS (Endosso 24hrs)
+                <dl id="conteudo03">
+                    <dt><img src="imagens amadeus/trfu.PNG" alt=""></dt>
+                    <dd>Mandatório para inserir endosso 24hrs.</dd>
+                </dl>
+            </li>
+
+            <button id="botao04" onclick="toggle ('conteudo04')">4</button>
+
+            <li>TRFU/FM4 (Inserir incentivo)
+                <dl id="conteudo04">
+                    <dt><img src="imagens amadeus/trfufm4.PNG" alt=""></dt>
+                    <dd>Mandatório para inserir incentivo da CIA.</dd>
+                </dl>
+            </li>
+
+            
+        </ul>
+<div>
+        <p><strong> TRFP - Finalizar</strong></p>
+    </div>
+    </main>
+
+    
+</body>
+</html>
